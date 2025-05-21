@@ -30,5 +30,5 @@ Designed for educational purposes and ethical cybersecurity research.
 
 ```bash
 git clone https://github.com/Muhammad-Zacky/CyberKit.git
-cd F01C
+cd CyberKit
 pip install -r requirements.txt
