@@ -29,6 +29,6 @@ Designed for educational purposes and ethical cybersecurity research.
 ## ⚙️ Installation 
 
 ```bash
-git clone https://github.com/Muhammad-Zacky/Hackit.git
+git clone https://github.com/Muhammad-Zacky/CyberKit.git
 cd F01C
 pip install -r requirements.txt
