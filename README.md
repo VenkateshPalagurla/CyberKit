@@ -31,4 +31,8 @@ Designed for educational purposes and ethical cybersecurity research.
 ```bash
 git clone https://github.com/Muhammad-Zacky/CyberKit.git
 cd CyberKit
+python3 -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
+python f01c.py
+
