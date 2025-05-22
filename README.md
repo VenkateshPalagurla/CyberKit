@@ -1,38 +1,106 @@
-# F01C - Cyber Toolkit 🕵️‍♂️🔍
+# CyberKit: Your All-in-One Terminal Toolkit for Cybersecurity
 
-A versatile terminal-based toolkit for **OSINT**, **public information gathering**, and basic **cybersecurity scanning**.  
-Designed for educational purposes and ethical cybersecurity research.
+![CyberKit](https://img.shields.io/badge/CyberKit-v1.0-blue.svg) ![License](https://img.shields.io/badge/License-MIT-green.svg) ![Python](https://img.shields.io/badge/Python-3.8%2B-yellow.svg)
+
+Welcome to **CyberKit**, the all-in-one terminal toolkit designed for OSINT (Open Source Intelligence), public information gathering, and basic scanning. This tool aims to support cybersecurity education and ethical penetration testing. Whether you are a student, a professional, or just someone interested in cybersecurity, CyberKit provides essential functionalities to enhance your skills.
+
+## Table of Contents
+
+1. [Features](#features)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Commands](#commands)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Contact](#contact)
+8. [Releases](#releases)
+
+## Features
+
+- **OSINT Capabilities**: Gather information from various public sources.
+- **Scanning Tools**: Basic scanning tools to assess vulnerabilities.
+- **Privacy-Focused**: Emphasizes user anonymity and privacy.
+- **User-Friendly CLI**: Easy-to-use command-line interface.
+- **Educational Resource**: Ideal for learning about cybersecurity and ethical hacking.
+
+## Installation
+
+To get started with CyberKit, follow these simple steps:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/VenkateshPalagurla/CyberKit.git
+   ```
+
+2. **Navigate to the Directory**:
+   ```bash
+   cd CyberKit
+   ```
+
+3. **Install Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run the Tool**:
+   ```bash
+   python main.py
+   ```
+
+## Usage
+
+CyberKit operates via a command-line interface. You can run various commands to perform different tasks. The interface is designed to be intuitive, allowing you to focus on gathering information without unnecessary distractions.
+
+## Commands
+
+Here are some of the key commands you can use:
+
+- **OSINT Commands**:
+  - `whois <domain>`: Get registration details for a domain.
+  - `dns-lookup <domain>`: Perform a DNS lookup.
+
+- **Scanning Commands**:
+  - `port-scan <ip>`: Scan for open ports on a specified IP address.
+  - `vuln-scan <ip>`: Scan for known vulnerabilities.
+
+- **Social Engineering**:
+  - `email-check <email>`: Verify if an email address is associated with any breaches.
+  - `phone-lookup <number>`: Gather information based on a phone number.
+
+## Contributing
+
+We welcome contributions from the community. If you want to help improve CyberKit, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Make your changes and commit them (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a Pull Request.
+
+## License
+
+CyberKit is licensed under the MIT License. You can find the full license in the `LICENSE` file.
+
+## Contact
+
+For any inquiries or issues, feel free to reach out:
+
+- **Author**: Venkatesh Palagurla
+- **Email**: venkatesh@example.com
+- **Twitter**: [@VenkateshPalagurla](https://twitter.com/VenkateshPalagurla)
+
+## Releases
+
+You can find the latest version of CyberKit and download it from the [Releases](https://github.com/VenkateshPalagurla/CyberKit/releases) section. Download the necessary files and execute them to get started.
+
+![Cybersecurity](https://source.unsplash.com/featured/?cybersecurity)
 
 ---
 
-## 🚨 WARNING
+### Conclusion
 
-> ❗ **DISCLAIMER** ❗  
-> This tool is strictly intended for **educational purposes** and **authorized penetration testing** only.  
-> The developer is **not responsible** for any misuse of this tool, including unauthorized hacking, invasion of privacy, or illegal activities.
+CyberKit aims to be a comprehensive toolkit for anyone interested in cybersecurity. By providing easy access to essential tools and resources, we hope to foster a community of learners and professionals dedicated to ethical hacking and cybersecurity practices. 
 
-**Use responsibly and always comply with local laws and regulations.**
+Explore the capabilities of CyberKit and enhance your skills in the field of cybersecurity. For updates, check the [Releases](https://github.com/VenkateshPalagurla/CyberKit/releases) section regularly. 
 
----
-
-## ✅ Features
-
-- [x] **Username OSINT** (GitHub, Twitter, Instagram)
-- [x] **Email Leak Checker** (Check if email appears in public data breaches)
-- [x] **Phone Number HLR Lookup** (Get telecom/operator location info)
-- [x] **IP Address Geolocation** (Locate IP address region)
-- [x] **Domain WHOIS Info** (Retrieve WHOIS data for domains)
-- [x] **Port Scanner** (Scan open ports on a target)
-
----
-
-## ⚙️ Installation 
-
-```bash
-git clone https://github.com/Muhammad-Zacky/CyberKit.git
-cd CyberKit
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-python f01c.py
-
+Thank you for using CyberKit!
