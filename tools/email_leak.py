@@ -46,7 +46,8 @@ def check_email_leak(email):
                 print(f"Domain      : {b['Domain']}")
                 print(f"Breach date : {b['BreachDate']}")
                 print(f"PwnCount    : {b['PwnCount']:,}")
-                print(f"Description : {b['Description'][:200].replace('<br>', ' ').replace('&quot;', '\"')}...")
+                desc = b['Description'][:200].replace('<br>', ' ').replace('&quot;', '"')
+                print(f"Description : {desc}...")
                 print(f"Data leaked : {', '.join(b['DataClasses'])}")
                 print("-" * 50)
         elif response.status_code == 404:
