@@ -1,3 +1,4 @@
+import ipaddress
 import sys
 import requests
 from colorama import Fore, Style, init
@@ -26,8 +27,15 @@ def get_ip_info(ip):
     url = f"https://ipinfo.io/{ip}/json"
     try:
         resp = requests.get(url, timeout=10)
-        resp.raise_for_status()
-        return resp.json()
+        if resp.status_code == 200:
+            try:
+                return resp.json()
+            except ValueError:
+                print(Fore.RED + "[!] Error: Received malformed JSON.")
+                return None
+        else:
+            print(Fore.RED + f"[!] API Error: {resp.status_code} - {resp.reason}")
+            return None
     except requests.RequestException as e:
         print(Fore.RED + f"[!] Request error: {e}")
         return None
@@ -58,6 +66,16 @@ def print_ip_info(data):
         print_kv("Domain", asn.get("domain"))
         print_kv("Country", asn.get("country"))
 
+def run(ip):
+    try:
+        ipaddress.ip_address(ip)
+    except ValueError:
+        print(Fore.RED + "[!] Invalid IP address format.")
+        return
+    data = get_ip_info(ip)
+    if data:
+        print_ip_info(data)
+
 def main():
     banner()
     if len(sys.argv) != 2:
@@ -66,11 +84,13 @@ def main():
         sys.exit(1)
     
     ip = sys.argv[1].strip()
-    data = get_ip_info(ip)
-    if data:
-        print_ip_info(data)
-    else:
-        print(Fore.RED + "[!] Failed to retrieve IP info.")
+    try:
+        ipaddress.ip_address(ip)
+    except ValueError:
+        print(Fore.RED + "[!] Invalid IP address format.")
+        sys.exit(1)
+        
+    run(ip)
 
 if __name__ == "__main__":
     main()
